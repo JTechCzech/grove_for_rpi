@@ -1,5 +1,6 @@
 # Initialization
 Initialization command: __lcd = LCD1602(i2c_bus=#bus number, lines=#number of lines, dotsize=#size)__
+and __lcd.home()__
 <br>
 For example, for __GPIO 2,3 the bus is 1__
 <br>
