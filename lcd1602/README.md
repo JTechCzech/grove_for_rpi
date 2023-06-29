@@ -14,4 +14,4 @@ To display a variable: __lcd.print(#variable name)__
 ## Cursor setting
 Code to set cursor: __lcd.setCursor(#character,#row)__
 <br>
-__A character is a line space in the display width__ for example for a 16x2 display 16 will be the last character on the line
+__A character is a line space in the display width__ for example for a 16x2 display will 16 be the last character on the line
