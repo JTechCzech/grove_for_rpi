@@ -1,5 +1,5 @@
 # Initialization
-Initialization command: lcd = __LCD1602(i2c_bus=#bus number, lines=#number of lines, dotsize=#size)__
+Initialization command: __lcd = LCD1602(i2c_bus=#bus number, lines=#number of lines, dotsize=#size)__
 <br>
 For example, for __GPIO 2,3 the bus is 1__
 <br>
@@ -11,6 +11,8 @@ Display text: __lcd.print("#your text")__
 or
 <br>
 To display a variable: __lcd.print(#variable name)__
+## Display clear
+Display clear command: __lcd.clear()__
 ## Cursor setting
 Code to set cursor: __lcd.setCursor(#character,#row)__
 <br>
